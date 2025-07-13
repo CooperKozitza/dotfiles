@@ -1,5 +1,8 @@
 .histfile
 
+# Github access tokens are stored in this file
+hosts.yml
+
 go
 dconf
 blender
