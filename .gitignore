@@ -9,6 +9,8 @@ github-copilot
 # Github access tokens are stored in this file
 hosts.yml
 
+lazy-lock.json
+
 go
 dconf
 blender
