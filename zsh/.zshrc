@@ -12,3 +12,11 @@ source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme
 
 # homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# Load zsh completions from Homebrew
+if type brew &>/dev/null; then
+ FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+
+ autoload -Uz compinit
+ compinit
+fi
