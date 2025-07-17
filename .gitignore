@@ -1,4 +1,10 @@
 .histfile
+.zsh_history
+
+.zcompdump*
+
+gh
+github-copilot
 
 # Github access tokens are stored in this file
 hosts.yml
