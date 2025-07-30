@@ -10,13 +10,4 @@ source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.config/zsh/.p10k.zsh.
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
 
-# homebrew
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-# Load zsh completions from Homebrew
-if type brew &>/dev/null; then
- FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
- autoload -Uz compinit
- compinit
-fi
+source $ZDOTDIR/completions/zsh-autocomplete/zsh-autocomplete.plugin.zsh

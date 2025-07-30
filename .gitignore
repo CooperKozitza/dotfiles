@@ -5,9 +5,13 @@
 
 gh
 github-copilot
+gh-copilot
 
 # Github access tokens are stored in this file
 hosts.yml
+
+# NextJS telemetry
+nextjs-nodejs
 
 lazy-lock.json
 

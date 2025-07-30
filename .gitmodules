@@ -1,3 +1,6 @@
 [submodule "zsh/powerlevel10k"]
 	path = zsh/powerlevel10k
 	url = https://github.com/romkatv/powerlevel10k
+[submodule "zsh/completions/zsh-autocomplete"]
+	path = zsh/completions/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete
